@@ -37,8 +37,16 @@ $(document).ready(function(){
     //when I refresh the page the task from local storage are retrieved and displayed
     var lastTasks = JSON.parse(localStorage.getItem("Tasks"));
 
-    console.log(lastTasks);
     $(textAreaEl[0]).text(lastTasks.NineAM);
+    $(textAreaEl[1]).text(lastTasks.TenAM);
+    $(textAreaEl[2]).text(lastTasks.ElevenAM);
+    $(textAreaEl[3]).text(lastTasks.TwelvePM);
+    $(textAreaEl[4]).text(lastTasks.OnePM);
+    $(textAreaEl[5]).text(lastTasks.TwoPM);
+    $(textAreaEl[6]).text(lastTasks.ThreePM);
+    $(textAreaEl[7]).text(lastTasks.FourPM);
+    $(textAreaEl[8]).text(lastTasks.FivePM);
+
     //when I click the save button, the task is stored on localStorage
         //Create function for save button
         function saveTask(event) {
@@ -57,9 +65,9 @@ $(document).ready(function(){
                 FivePM: textAreaEl[8].value.trim(),
             }
             console.log(Tasks);
-
             //Store the Task object in localStorage
             localStorage.setItem("Tasks", JSON.stringify(Tasks));
+                  
         }
 
     //Call|Execute the function
