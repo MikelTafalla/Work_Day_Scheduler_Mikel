@@ -37,7 +37,7 @@ $(document).ready(function(){
     //On page load we retrieve most recent savings
     //when I refresh the page the task from local storage are retrieved and displayed
     var lastTasks = JSON.parse(localStorage.getItem("Tasks"));
-    
+
     //Condition so if localstorage is empty the program still runs
     if (lastTasks !== null) {
     $(textAreaEl[0]).text(lastTasks.NineAM);
@@ -67,7 +67,7 @@ $(document).ready(function(){
                 FourPM: textAreaEl[7].value.trim(),
                 FivePM: textAreaEl[8].value.trim(),
             }
-            alert("here");
+
             //Store the Task object in localStorage
             localStorage.setItem("Tasks", JSON.stringify(Tasks));
                   
