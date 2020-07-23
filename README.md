@@ -1,12 +1,11 @@
 # Work_Day_Scheduler_Mikel
-Work_Day_Scheduler
 
 ## Link
 [Live Site](https://mikeltafalla.github.io/Work_Day_Scheduler_Mikel/)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/MikelTafalla/Work_Day_Scheduler?logo=github)
-![GitHub top language](https://img.shields.io/github/languages/top/MikelTafalla/Work_Day_Scheduler?color=green&logo=github&logoColor=green)
-![GitHub language count](https://img.shields.io/github/languages/count/MikelTafalla/Work_Day_Scheduler?color=green&logo=github&logoColor=green)
+![GitHub repo size](https://img.shields.io/github/repo-size/MikelTafalla/Work_Day_Scheduler_Mikel?logo=github)
+![GitHub top language](https://img.shields.io/github/languages/top/MikelTafalla/Work_Day_Scheduler_Mikel?color=green&logo=github&logoColor=green)
+![GitHub language count](https://img.shields.io/github/languages/count/MikelTafalla/Work_Day_Scheduler_Mikel?color=green&logo=github&logoColor=green)
 
 ## Table of Contents
 
